@@ -23,7 +23,7 @@ from groq import Groq
 
 # Charger les variables d'environnement
 load_dotenv()
-api_key = st.secrets("GROQ_API_KEY")
+api_key = st.secrets["GROQ_API_KEY"]
 if not api_key:
     st.error("⚠️ ERREUR : La clé API GROQ est manquante. Définissez la variable d'environnement 'GROQ_API_KEY'.")
     st.stop()
