@@ -1,2 +1,3 @@
-chainlit
+streamlit
 groq
+python-dotenv
